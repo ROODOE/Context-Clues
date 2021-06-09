@@ -1,0 +1,45 @@
+main {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(117, 81, 131);
+}
+
+h3 {
+    width: 5em;
+    margin: 0.5em;
+
+    cursor: pointer;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 8px;
+    font-family: cursive;
+    color: rgb(43, 43, 43);
+    padding: 5px;
+    align-content: center;
+    background-color: rgb(119, 88, 131);
+    
+}
+
+h3:hover {
+    box-shadow: 5px 5px 10px rgb(46, 46, 46);
+    transition: 0.5s;
+    color: rgb(43, 43, 43);
+    background-color: rgb(100, 76, 109);
+    /* background-color: rgb(91, 67, 100); */
+    font-style: oblique;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+h1 > p {
+    font-family: cursive;
+    color: rgb(27, 27, 27);
+    text-shadow: 5px 10px 8px rgb(66, 66, 66);
+}
